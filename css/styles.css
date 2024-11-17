@@ -13,7 +13,7 @@
     --cornflower: rgb(231, 233, 252); /* #e7e9fc */
     --cloud: rgb(244, 244, 253); /* #f4f4fd */
     --navy-blue-modal: rgba(46, 47, 66, 0.4);
-    --grey: rgba(46, 47, 66, 0.7);
+    --grey: rgb(46, 47, 66);
     --white: rgb(255, 255, 255); /* #fff */
     --dairy: rgb(252, 252, 252); /* #fcfcfc */
 }
@@ -65,6 +65,16 @@ address {
     line-height: 1.11;
     color: var(--navy-blue);
     letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.approach-title, .team-name, .portfolio-subtitle {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
 }
 
 /* HEADER */
@@ -84,13 +94,22 @@ address {
 
 .nav-link {
     color: var(--navy-blue);
+    font-weight: 500;
 }
 
 .nav-link:hover, .nav-link:focus {
-    color: var(--navy-blue);
+    color: var(--ocean);
 }
 
 .nav-link:active {
+    color: var(--ocean);
+}
+
+.contact-link:hover, .contact-link:focus {
+    color: var(--ocean);
+}
+
+.contact-link:active {
     color: var(--ocean);
 }
 
@@ -103,11 +122,15 @@ address {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
     color: var(--white);
 }
 
 .hero-btn {
     background: var(--iris);
+    line-height: 1.5;
+    font-weight: 500;
     letter-spacing: 0.04em;
     color: var(--white);
 }
@@ -119,13 +142,6 @@ address {
 /* OUR TEAM */
 .team {
     background: var(--cloud);
-}
-
-.team-name, .portfolio-subtitle {
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--navy-blue);
 }
 
 /* Footer */
