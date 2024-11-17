@@ -63,8 +63,8 @@ address {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
     color: var(--navy-blue);
+    letter-spacing: 0.02em;
 }
 
 /* HEADER */
@@ -73,8 +73,8 @@ address {
     color: var(--iris);
     text-transform: uppercase;
     font-size: 18px;
-    font-weight: bold;
-    line-height: 1.7;
+    font-weight: 700;
+    line-height: 1.17;
     letter-spacing: 0.03em;
 }
 
@@ -84,7 +84,6 @@ address {
 
 .nav-link {
     color: var(--navy-blue);
-    font-weight: 500;
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -104,7 +103,6 @@ address {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
     color: var(--white);
 }
 
@@ -114,13 +112,13 @@ address {
     color: var(--white);
 }
 
+.hero-btn:hover, .hero-btn:focus {
+    background-color: var(--ocean);
+}
+
 /* OUR TEAM */
 .team {
     background: var(--cloud);
-}
-
-.team-member {
-    text-align: center;
 }
 
 .team-name, .portfolio-subtitle {
@@ -128,11 +126,6 @@ address {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
-}
-
-/* Portfolio */
-.portfolio-item {
-    align-items: center;
 }
 
 /* Footer */
